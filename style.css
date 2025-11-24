@@ -1,0 +1,17 @@
+body, html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('https://static.wikia.nocookie.net/marveldatabase/images/8/8c/Goom_%28Earth-616%29_from_Iceman_and_Angel_Vol_1_1_001.jpg/revision/latest?cb=20110328055759');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
