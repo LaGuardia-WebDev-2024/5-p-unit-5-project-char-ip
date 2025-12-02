@@ -2,6 +2,10 @@ body, html {
   height: 100%;
 }
 
+div {
+  background-color: transparent;
+}
+
 .parallax {
   /* The image used */
   background-image: url(mount.jpg);
@@ -18,8 +22,13 @@ body, html {
 
 .annoying {
   height:1000px;
-  background-color:rgb(200, 222, 243);font-size:36px;
+  font-size:36px;
   position:sticky;
+  background-image: url(ww-removebg-preview.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .invite {
