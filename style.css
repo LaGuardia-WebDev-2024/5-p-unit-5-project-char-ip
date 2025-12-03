@@ -1,0 +1,75 @@
+body, html {
+  height: 100%;
+}
+
+div {
+  background-color: transparent;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url(mount.jpg);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.annoying {
+  height:1000px;
+  font-size:36px;
+  position:sticky;
+  background-image: url(ww-removebg-preview.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.invite {
+  animation: myAnim 4s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0s 1 normal forwards;
+  background-color:rgb(255, 252, 237);
+  height:350px;
+  width:580px;
+  position: absolute;
+      top: 10%;
+      left: 30%;
+  border: outset;
+
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: rotateX(-100deg);
+		transform-origin: top;
+	}
+
+	100% {
+		opacity: 1;
+		transform: rotateX(0deg);
+		transform-origin: top;
+	}
+}
+
+
+
+span {
+	font-size:20px;
+	color:rgb(57, 57, 132);
+	font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.hi {
+  height:1000px;
+  font-size:36px;
+  position:absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-1;}
