@@ -64,3 +64,12 @@ span {
 	color:rgb(57, 57, 132);
 	font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+.hi {
+  height:1000px;
+  font-size:36px;
+  position:absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-1;}
